@@ -1,0 +1,134 @@
+body {
+    background-color: darkslategray;
+  }
+
+  .main {
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px 50px 50px 50px;
+    margin-top: 40px;
+    border: 2px solid black;
+  }
+
+  #quiz-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    text-align: center;
+    width: 530px;
+    height: 400px;
+  }
+
+  header {
+    width: 90vh;
+    height: 68px;
+    background-color: rgb(5, 67, 5);
+    margin-top: 0;
+    text-align: center;
+    position: relative;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -285%);
+  }
+
+  h1 {
+    text-align: center;
+    padding: 10px 0px;
+    color: white;
+    margin-top: 15px;
+    font-size: 40px;
+  }
+
+  #hr1 {
+    margin-top: 25px;
+    color: blue;
+  }
+
+  #question {
+    font-size: 1.6em;
+    color: blue;
+  }
+
+  .buttons {
+    width: 500px;
+    height: 100px;
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    /* transform: translate(0%, 0%); */
+    /* display: grid; */
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .buttons button {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    border-radius: 4px;
+    color: black;
+    background-color: cyan;
+    font-size: 1.15em;
+    border-color: cyan;
+  }
+
+  button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: skyblue;
+    border-color: skyblue;
+  }
+
+  button:active {
+    /* background-color: rgb(75, 75, 228);
+    border-color: rgb(75, 75, 228); */
+    background-color: navajowhite;
+    border-color: navajowhite;
+    color: black;
+  }
+
+  #hr2 {
+    margin-top: 25px;
+  }
+
+  #footer {
+    font-size: 1.2em;
+    padding-bottom: 5px;
+  }
+
+  #result {
+    width: 230px;
+    margin-top: 70px;
+    margin-left: 140px;
+    padding: 15px;
+    text-align: center;
+    line-height: 40px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: aquamarine;
+  }
+
+  #try {
+    width: 120px;
+    height: 35px;
+    background-color: lightgreen;
+    border-color: lightgreen;
+    color: black;
+    border-radius: 4px;
+    margin-top: 50px;
+  }
+
+  #try:hover {
+    background-color: forestgreen;
+    border: forestgreen;
+  }
+
+  #try a {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 1.3em;
+    color: black;
+  }
